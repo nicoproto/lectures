@@ -1,0 +1,36 @@
+/* :root {
+  --main-bg-color: green;
+}
+
+body {
+  background-color: var(--main-bg-color) !important;
+} */
+
+.btn-airbnb {
+  text-decoration: none;
+  background-color: #DB2463;
+  color: white;
+  padding: 8px 32px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px black;
+  transition: 0.5s;
+}
+
+  .btn-airbnb:hover {
+    background-color: #0cb18d;
+  }
+
+.btn-medium {
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: lighter;
+  color: #0cb18d;
+  padding: 8px 32px;
+  border-radius: 4px;
+  border: 1px solid #0cb18d;
+  transition: 0.5s;
+}
+  .btn-medium:hover {
+    color: white;
+    background-color: #0cb18d;
+  }

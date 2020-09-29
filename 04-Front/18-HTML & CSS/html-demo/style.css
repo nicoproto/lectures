@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Roboto:wght@700&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+body {
+  font-family: 'Lato';
+  background-color: #faf3dd;
+}
+
+h1, h2 {
+  font-family: 'Roboto';
+}
+
+h1 {
+  color: #64958f;
+}
+
+h2 {
+  color: #065c6f;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #065c6f;
+}
+
+  a:hover {
+    color: #64958f;
+  }
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  margin: 32px auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: center;
+  width: 500px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #64958f;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+  .btn-blue:hover {
+    background-color: #065c6f;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 5.6px;
+  }
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+  .list-inline li {
+    display: inline-block;
+  }
+
+.social-icon {
+  font-size: 32px;
+  color: rgb(200, 200, 200);
+  margin: 8px 16px;
+}
+
+  .social-icon:hover {
+    color: rgb(150, 150, 150);
+  }
+

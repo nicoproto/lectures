@@ -1,0 +1,61 @@
+/* Category Card */
+.card-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Card */
+.card-product {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+  .card-product img {
+    height: 150px;
+    margin-right: 16px;
+  }
+
+  .card-product h2 {
+    margin: 0;
+  }
+
+  .card-product p {
+    margin: 0;
+  }
+
+/* Trip Card */
+.card-trip {
+  /* display: flex; NOOOOO */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+  .card-trip-footer {
+    padding: 24px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .card-trip img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-trip h2 {
+    margin: 0;
+  }
+
+  .card-trip p {
+    margin: 0;
+  }
